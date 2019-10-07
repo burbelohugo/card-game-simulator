@@ -17,6 +17,7 @@ It is a console-based game simulator of the popular card game Blackjack.
 ## How did I build it?
 
 **Feature Requirements**
+
 First, I needed to take a good look at what this thing needed to do. 
 
 I started by doing what I always do with any project: a quick brain dump of feature ideas, requirements, and anything else I wanted to consider.
@@ -32,6 +33,7 @@ Core feature requirements were:
  - Generate a realistic, challenging "opponent" for the user
 
 **Picking a Language**
+
 I started by considering which core technologies to use, before worrying about specific libraries. 
 It came down to Javascript vs. Python. I have experience with other languages, but the most of my work right now is in these languages (plus PHP), and I wanted to pick something I wasn't rusty in.
 
@@ -42,10 +44,12 @@ Python is lovely for data science, but I was prefer Javascript for hacky project
 So I ended up picking Javascript. 
 
 **Picking a NPM Package**
+
 Next, came the major challenge: accepting and processing command line input. 
 I have never actually done this before in a project, so after a little googling I found [Inquirer.js](https://github.com/SBoudrias/Inquirer.js), a popular NPM package for accepting command line input. Perfect.
 
 **Designing the Core Architecture**
+
 When designing a large-scale system, I normally start with an architecture meeting, scope document, whiteboard session, etc. 
 This was a 2 hour hack, and I was working with a technology (CLI) I was relatively unfamiliar with, so I opted to get an MVP out the door and then worry about architecture.
 

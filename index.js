@@ -109,9 +109,19 @@ const getOutput = (hand) => {
 
 const getScore = (hand) => {
   let score = 0;
+  let numAces = 0;
   hand.forEach(card => {
+    if(card.value == 11){
+      numAces++;
+    }
     score = score + card.value;
   });
+  if(score > SCORE_LIMIT && numAces > 0){
+    while(score > SCORE_LIMIT && numAces > 0){
+      score = score - 10;
+      numAces--;
+    }
+  }
   return score;
 }
 

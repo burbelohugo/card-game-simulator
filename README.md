@@ -24,7 +24,7 @@ First, I needed to take a good look at what this thing needed to do. Core featur
  - Generate a realistic, challenging "opponent" for the user
 
 I started by considering which core technologies to use, before worrying about specific libraries. 
-It came down to Javascript vs. Python. I have experience with other languages, but the core of my work right now is in these languages (plus PHP), so I wanted to pick something I wasn't rusty in.
+It came down to Javascript vs. Python. I have experience with other languages, but the most of my work right now is in these languages (plus PHP), and I wanted to pick something I wasn't rusty in.
 
 Python is lovely for data science, but I was prefer Javascript for hacky projects like these because:
  1) The community is massive, so there are plenty of example projects 

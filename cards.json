@@ -1,0 +1,70 @@
+{
+  "SUIT_LIST": [
+    {
+      "label": "HEARTS"
+    },
+    {
+      "label": "CLUBS"
+    },
+    {
+      "label": "DIAMONDS"
+    },
+    {
+      "label": "SPADES"
+    }
+  ],
+  "CARD_LIST": [
+    {
+      "label": "TWO OF ",
+      "value": 2
+    },
+    {
+      "label": "THREE OF ",
+      "value": 3
+    },
+    {
+      "label": "FOUR OF ",
+      "value": 4
+    },
+    {
+      "label": "FIVE OF ",
+      "value": 5
+    },
+    {
+      "label": "SIX OF ",
+      "value": 6
+    },
+    {
+      "label": "SEVEN OF ",
+      "value": 7
+    },
+    {
+      "label": "EIGHT OF ",
+      "value": 8
+    },
+    {
+      "label": "NINE OF ",
+      "value": 9
+    },
+    {
+      "label": "TEN OF ",
+      "value": 10
+    },
+    {
+      "label": "JACK OF ",
+      "value": 10
+    },
+    {
+      "label": "QUEEN OF ",
+      "value": 10
+    },
+    {
+      "label": "KING OF ",
+      "value": 10
+    },
+    {
+      "label": "ACE OF ",
+      "value": 11
+    }
+  ]
+}

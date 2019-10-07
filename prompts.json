@@ -1,0 +1,16 @@
+{
+  "START_PROMPT": {
+    "name": "Start",
+    "message": "Ready to play Blackjack? Press any key to get started."
+  },
+  "HIT_OR_PASS_PROMPT": {
+    "name": "Hit",
+    "message": "Draw another card? ",
+    "type": "confirm"
+  },
+  "PLAY_AGAIN_PROMPT": {
+    "name": "Yes",
+    "message": "Play again? ",
+    "type": "confirm"
+  }
+}

@@ -19,7 +19,7 @@ First, I needed to take a good look at what this thing needed to do.
 
 I started by doing what I always do with any project: a quick brain dump of feature ideas, requirements, and anything else I wanted to consider.
 
-![alt text](https://user-images.githubusercontent.com/30019505/66279678-dfd13b00-e880-11e9-9915-f96e013a27ec.png =250x)
+<img src="https://user-images.githubusercontent.com/30019505/66279678-dfd13b00-e880-11e9-9915-f96e013a27ec.png" alt="drawing" width="200"/>
 
 
 Core feature requirements were:

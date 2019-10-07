@@ -14,3 +14,24 @@ It is a console-based game simulator of the popular card game Blackjack.
 4. `node index.js`
 5. Have fun!
 
+## How did I build it?
+First, I needed to take a good look at what this thing needed to do. Core feature requirements were:
+ - Accept user input via the command line
+ - Prompt the user to start the game
+ - Generate a hand of playing cards
+ - Allow the user to either draw another card or pass
+ - Keep track of the total score
+ - Generate a realistic, challenging "opponent" for the user
+
+I started by considering which core technologies to use, before worrying about specific libraries. 
+It came down to Javascript vs. Python. I have experience with other languages, but the core of my work right now is in these languages (plus PHP), so I wanted to pick something I wasn't rusty in.
+
+Python is lovely for data science, but I was prefer Javascript for hacky projects like these because:
+ 1) The community is massive, so there are plenty of example projects 
+ 2) It can be used for both frontend and backend
+
+So I ended up picking Javascript. 
+
+Next, came the major challenge: accepting and processing command line input. 
+I have never actually done this before in a project, so after a little googling I found [Inquirer.js](https://github.com/SBoudrias/Inquirer.js), a popular NPM package for accepting command line input. Perfect.
+
